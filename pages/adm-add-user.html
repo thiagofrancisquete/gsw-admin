@@ -1,0 +1,85 @@
+<div class="ui tiny modal adm-create" id="adm-add-user">
+  <span class="adm-create-user-title"
+    >Cadastrar usuários <i class="close icon" id="close-modal"></i
+  ></span>
+  <form class="adm-create-userform">
+    <input type="text" id="nome" placeholder="José Martins da Vila" />
+    <input type="text" id="cpf" placeholder="CPF" />
+    <input
+      type="text"
+      id="cpf"
+      placeholder="Digite o email (Será o login de acesso)"
+    />
+    <div class="add-user-radios">
+      <span>Permissão <i class="info circle icon" id="info"></i></span>
+      <input
+        type="radio"
+        name="private"
+        id="rd-admin"
+        value="sim"
+        checked
+      />Administrador
+      <input type="radio" name="private" id="rd-user" value="nao" />Usuário
+    </div>
+  </form>
+  <span class="add-projects-title">
+    <i class="plus icon"></i>Atribuir projetos a este usuário</span
+  ><br />
+  <button class="btn-enviar">Cadastrar usuário</button>
+</div>
+
+<script>
+  // seleciona o modal
+  $('#add-user').on('click', () => {
+    // abre o modal selecionado no click
+    $('#adm-add-user').modal('show');
+  });
+
+  // fecha o modal no click do x
+  $('#close-modal').on('click', () => {
+    $('#adm-add-user').modal('hide');
+  });
+
+  // fecha o modal apos o "submit"
+  $('#btn-criar-projeto').on('click', () => {
+    $('#adm-add-user').modal('hide');
+  });
+</script>
+
+<!-- 
+
+<div class="adm-create hide" id="adm-add-user">
+  <!-- cadastrar usuario
+  <span class="adm-create-user-title"
+    >Cadastrar usuários <i class="close icon" id="close-modal"></i>
+  </span>
+  <br />
+  <form class="adm-create-userform">
+    <input type="text" id="nome" placeholder="José Martins da Vila" />
+    <input type="text" id="cpf" placeholder="CPF" />
+    <input
+      type="text"
+      id="cpf"
+      placeholder="Digite o email (Será o login de acesso)"
+    />
+    <div class="add-user-radios">
+      <span>Permissão <i class="info circle icon" id="info"></i></span>
+      <input
+        type="radio"
+        name="private"
+        id="rd-admin"
+        value="sim"
+        checked
+      />Administrador
+      <input type="radio" name="private" id="rd-user" value="nao" />Usuário
+    </div>
+  </form>
+  <span class="add-projects-title">
+    <i class="plus icon"></i>Atribuir projetos a este usuário</span
+  ><br />
+  <button class="btn-enviar">Cadastrar usuário</button>
+</div>
+
+
+
+-->

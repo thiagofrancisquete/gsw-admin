@@ -1,0 +1,50 @@
+<div class="ui tiny modal adm-add-project" id="adm-create-project">
+  <!-- criar projeto -->
+  <span class="adm-create-project-title"
+    >Criar projeto <i class="close icon" id="fechar-modal"></i></span
+  ><br />
+  <form class="adm-create-project-form">
+    <input type="text" id="" placeholder="Nome do projeto" />
+    <input type="text" id="" placeholder="Selecione o projeto" />
+    <div class="project-radios">
+      <span>Projeto privado <i class="info circle icon" id="info"></i></span>
+      <input type="radio" name="private" id="" value="sim" checked />Sim
+      <input type="radio" name="private" id="" value="nao" />Não
+    </div>
+    <div class="form-campos">
+      <textarea
+        name=""
+        readonly
+        cols="22"
+        rows="4"
+        placeholder="Tempo total: 0:00"
+      ></textarea>
+      <span id="calendario"
+        ><i class="calendar check outline icon"></i>6 de Junho</span
+      >
+    </div>
+  </form>
+  <span class="add-userproject-title">Adicionar usuarios</span>
+  <ul class="add-user-check">
+    <li><input type="checkbox" name="oi" checked />Adam Henrique</li>
+    <li><input type="checkbox" name="oi" />Antonio Nunes</li>
+    <li><input type="checkbox" name="oi" />José Severino</li>
+  </ul>
+  <button class="btn-enviar">Criar Projeto</button>
+</div>
+
+<script>
+  $('#add-project').on('click', () => {
+    $('#adm-create-project').modal('show');
+  });
+
+   // fecha o modal no click do x
+   $('#fechar-modal').on('click', () => {
+    $('#adm-create-project').modal('hide');
+  });
+
+  // fecha o modal apos o "submit"
+  $('.btn-enviar').on('click', () => {
+    $('#adm-create-project').modal('hide');
+  });
+</script>
