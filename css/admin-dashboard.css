@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  width: 230px;
+}
+
+#header span {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+#logo {
+  width: 50px !important;
+  height: 50px;
+  border-radius: 50%;
+}
+
+
+.sidebar-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sidebar-header-title {
+  width: 70%;
+}
+#header-cargo {
+  color: #D06060;
+  font-weight: bold;
+}
+
+#header-name {
+  color: #777;
+  font-weight: 300;
+}
+
+#pic {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+#searchbox {
+  border-radius: 55px;
+}
+
+#conteudo {
+  width: 75%;
+  margin-left: 20px;
+}
+
+#menu-list i {
+  color: #cfcfcf;
+}
+
+#menu-list p {
+  color: #777;
+}
+
+.submenu a {
+  color: #a0a0a0 !important;
+  border-left: 3px solid #5dc6f6;
+  border-bottom: none !important;
+}
+
+.seta {
+  float: right !important;
+}
+
+#main {
+  background-color: #F8F8F8;
+  color: #9b9b9b;
+}
+#ola {
+  color: #6DB1CC;
+}
+
+#subtitle-presentation {
+  color: #AEAEAE;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.hours {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  align-items: center;
+}
+
+.hours p {
+  margin-left: 15px;
+}
+
+.card-esq {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.card-conteudo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card-hour {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.i-circle {
+  color: #fff;
+  padding: 15px 17px;
+  border-radius: 100%;
+  font-size: 20px;
+}
+
+#first {
+  background-color: #D06060;
+}
+
+#second {
+  background-color: #526ee4;
+}
+#third {
+  background-color: #ef8638;
+}
+
+#project-1 {
+  width: 90%;
+}
+
+#project-2 {
+  width: 83%;
+}
+
+#project-3 {
+  width: 95%;
+}
