@@ -1,0 +1,46 @@
+<div class="ui mini modal user-worked" id="hours-worked">
+  <div class="box-trabalho">
+    <span id="user-trabalho">
+      Insira horas trabalhadas <i class="close icon" id="fechar-modal"></i>
+    </span>
+    <span id="user-trabalho-title"
+      ><Strong>Projeto selecionado:</Strong> Tanby papelaria</span
+    >
+    <div id="user-campos">
+      <input
+        type="text"
+        name=""
+        id="sel-data"
+        placeholder="selecione a data"
+      /><br />
+      <span id="subtitle">Informe a quantidade de horas trabalhadas</span>
+      <textarea
+        name=""
+        id="textoarea"
+        cols="5"
+        rows="3"
+        readonly
+        placeholder="Tempo: 0:00"
+      ></textarea>
+    </div>
+    <button id="btn-usr-horas">Gravar a quantidade de horas</button>
+  </div>
+</div>
+
+<script>
+    // seleciona o modal
+    $('#u-details-2').on('click', () => {
+      // abre o modal selecionado no click
+      $('#hours-worked').modal('show');
+    });
+  
+    // fecha o modal no click do x
+    $('#fechar-modal').on('click', () => {
+      $('#hours-worked').modal('hide');
+    });
+  
+    // fecha o modal apos o "submit"
+    $('#btn-usr-horas').on('click', () => {
+      $('#hours-worked').modal('hide');
+    });
+  </script>

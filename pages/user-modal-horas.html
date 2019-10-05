@@ -1,0 +1,34 @@
+<div class="ui tiny modal user-see-hours" id="user-check-hours">
+  <div id="warning" >
+    <div class="box">
+      <i class="exclamation circle icon huge" id="warning-img"></i>
+      <h1 id="aviso-title">Aviso!</h1>
+      <p id="aviso-subtitle">
+        Voce tem certeza que deseja registrar a <br /> quantidade de horas para o
+        projeto <strong>Tanby Papelaria?</strong>
+      </p>
+      <div id="aviso-footer">
+        <button id="aviso-btn-cancelar">Cancelar</button>
+        <button id="aviso-btn-registrar">Sim, registrar!</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // seleciona o modal
+  $('#u-details-1').on('click', () => {
+    // abre o modal selecionado no click
+    $('#user-check-hours').modal('show');
+  });
+
+  // fecha o modal no click do x
+  $('#aviso-btn-cancelar').on('click', () => {
+    $('#user-check-hours').modal('hide');
+  });
+
+  // fecha o modal apos o "submit"
+  $('#aviso-btn-registrar').on('click', () => {
+    $('#user-check-hours').modal('hide');
+  });
+</script>
