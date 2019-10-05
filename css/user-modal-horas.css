@@ -1,0 +1,65 @@
+#aviso-img {
+  color: #df8c1f;
+  border-radius: 50%;
+  border: 1px solid #df8c1f;
+  height: 30px;
+  width: 30px;
+}
+
+#warning {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center !important;
+  margin: 0 auto;
+}
+
+.box {
+  border: 1px solid #aaa7a7;
+  height: 280px;
+  box-sizing: border-box;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #8a8a8d;
+}
+
+#warning-img {
+  color: #df8c1f;
+}
+
+#aviso-subtitle {
+  text-align: center;
+}
+
+#aviso-footer {
+ height: 35px;
+ display: flex;
+ justify-content: flex-end;
+ width: 100%;
+}
+
+#aviso-footer button {
+  margin: 0 10px;
+  border-radius: 5px;
+  border: transparent;
+  width: 100px;
+  color: #fff;
+  font-size: 12px;
+}
+
+#aviso-footer button:hover {
+  font-weight: bold;
+  border: transparent;
+}
+
+#aviso-btn-registrar {
+  background-color: teal;
+}
+
+#aviso-btn-cancelar {
+  background-color: #aaa7a7;
+}

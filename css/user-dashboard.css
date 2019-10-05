@@ -1,0 +1,64 @@
+#main {
+  width: 70vw;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+.user-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #555;
+}
+
+li {
+  list-style: none;
+}
+
+#dias, #horas-trabalhadas {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -12px;
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+#user-horas {
+  color: #8f8f8f;
+  font-weight: 400;
+}
+
+.aponta-horas {
+  border: 1px solid #dddddd;
+  background-color: #F8F8F8;
+  border-radius: 5px;
+  color: #555;
+  height: 150px;
+  padding: 15px;
+  width: 300px;
+  -webkit-box-shadow: 10px 10px 39px -23px rgba(0,0,0,0.65);
+     -moz-box-shadow: 10px 10px 39px -23px rgba(0,0,0,0.65);
+          box-shadow: 10px 10px 39px -23px rgba(0,0,0,0.65);
+}
+
+#dias {
+  font-weight: bolder;
+}
+
+#user-relatorio {
+  display: flex;
+  justify-content: center;
+}
+
+#rodape-projetos {
+  display: flex;
+  justify-content: center;
+}
+
+.card-hour {
+  width: 15vw;
+}
+
+#details-1 {
+  color: red;
+}

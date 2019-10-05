@@ -1,0 +1,59 @@
+#user-trabalho {
+  color: #555;
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.box-trabalho {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+}
+
+#user-campos {
+  display: flex;
+  flex-direction: column;
+}
+
+#sel-data {
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 260px;
+}
+
+#btn-usr-horas {
+  padding: 12px;
+  background-color: teal;
+  border: transparent;
+  color: #fff;
+  border-radius: 5px;
+  margin: 15px 10px;
+  width: 80%;
+}
+
+#user-trabalho-title {
+  color: #9b9a9a;
+  font-size: 12px;
+  margin-bottom: 10px;
+  width: 100%;
+  margin-left: 100px;
+}
+
+#subtitle {
+  margin-bottom: 10px;
+  font-size: 11px;
+  color: #9b9a9a;
+}
+
+#textoarea {
+  resize: none;
+  width: 150px !important;
+  border-radius: 5px;
+}
