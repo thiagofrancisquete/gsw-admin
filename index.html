@@ -14,7 +14,7 @@
       ><br />
       <span id="subtitulo">Acesse sua conta</span>
       <form action="" class="form-login">
-        <input type="email" name="email" id="email" placeholder="email" />
+        <input type="email" name="email" id="email" placeholder="admin@admin ou user@user" />
         <input
           type="password"
           name="password"
@@ -23,14 +23,34 @@
         />
         <br />
         <div class="infos">
-          <input type="checkbox" name="keepconnect" id="keepconnect" style="margin: 0px" />
+          <input
+            type="checkbox"
+            name="keepconnect"
+            id="keepconnect"
+            style="margin: 0px"
+          />
           <label class="form-check-label" for="keepconect"
             >Manter conectado</label
           >
           <a href="#">Esqueceu sua senha?</a>
         </div>
-        <button type="submit" class="btn-login">Acessar conta</button>
+        <button type="button" class="btn-login" onclick="login()">
+          Acessar conta
+        </button>
       </form>
     </div>
   </body>
+
+  <script>
+    function login(){
+      var name = document.getElementById('email');
+
+      if (name.value == 'admin@admin'){
+      window.location = './pages/admin-dashboard.html'
+      } else {
+        console.log('leandra');
+        window.location = './pages/user-dashboard.html'
+      }
+    }
+  </script>
 </html>
