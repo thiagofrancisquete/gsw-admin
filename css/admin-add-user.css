@@ -1,0 +1,80 @@
+
+
+li {
+  list-style: none;
+}
+
+.adm-create {
+  border: 1px solid #eeeded;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+          box-shadow: 1px 3px 10px 1px #c8c7c7;
+  -webkit-box-shadow: 1px 3px 10px 1px #c8c7c7;
+    -moz-box-shadow:  1px 3px 10px 1px #c8c7c7;
+    box-sizing: border-box;
+}
+
+.adm-create-user-title {
+  font-size: 17px;
+  color: #5c5a5a;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+}
+
+.adm-create-userform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.add-projects-title {
+  color: #5c5a5a;
+  font-weight: 500;
+  font-size: 13px; 
+  margin-top: 20px;
+}
+
+input[type=text]{
+  border: 1px solid #c8c7c7;
+  border-radius: 5px;
+  margin: 7px;
+  padding: 15px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  border: 10px solid #555555;
+}
+
+.btn-enviar {
+  background-color: #04BB9B;
+  width: 100%;
+  border-radius: 5px;
+  border: transparent;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.add-user-radios {
+  color: #555555;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+  font-size: 13px;
+  margin: 20px 0;
+  vertical-align: middle;
+  padding-left: 10px; 
+}
+
+.add-projects-title {
+  color: #5c5a5a;
+}
